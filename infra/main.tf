@@ -291,3 +291,11 @@ resource "google_compute_network" "node_28235" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "azurerm_resource_group" "node_17308" {
+  name = "telemetry-cluster-7120"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
