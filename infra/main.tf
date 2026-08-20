@@ -483,3 +483,11 @@ resource "aws_security_group" "node_2910" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_s3_bucket" "node_11050" {
+  name = "telemetry-cluster-31787"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
