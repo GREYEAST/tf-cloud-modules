@@ -603,3 +603,11 @@ resource "google_compute_network" "node_115" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_iam_role" "node_28199" {
+  name = "telemetry-cluster-1819"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
