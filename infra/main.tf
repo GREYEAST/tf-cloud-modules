@@ -819,3 +819,11 @@ resource "google_compute_network" "node_26335" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_security_group" "node_23688" {
+  name = "telemetry-cluster-10073"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
