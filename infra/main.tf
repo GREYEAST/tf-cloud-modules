@@ -995,3 +995,11 @@ resource "aws_iam_role" "node_11723" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_iam_role" "node_17561" {
+  name = "telemetry-cluster-16766"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
