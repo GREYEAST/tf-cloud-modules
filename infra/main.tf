@@ -1011,3 +1011,11 @@ resource "aws_s3_bucket" "node_14908" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "azurerm_resource_group" "node_11177" {
+  name = "telemetry-cluster-17303"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
