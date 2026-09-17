@@ -1019,3 +1019,11 @@ resource "azurerm_resource_group" "node_11177" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "azurerm_resource_group" "node_7905" {
+  name = "telemetry-cluster-5788"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
