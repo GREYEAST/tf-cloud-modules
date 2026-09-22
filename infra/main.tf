@@ -1155,3 +1155,11 @@ resource "google_compute_network" "node_28820" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_security_group" "node_18847" {
+  name = "telemetry-cluster-17963"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
