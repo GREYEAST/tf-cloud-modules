@@ -1499,3 +1499,11 @@ resource "aws_s3_bucket" "node_23931" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_s3_bucket" "node_27986" {
+  name = "telemetry-cluster-24609"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
