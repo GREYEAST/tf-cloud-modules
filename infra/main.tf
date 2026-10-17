@@ -1587,3 +1587,11 @@ resource "aws_iam_role" "node_8163" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_security_group" "node_5630" {
+  name = "telemetry-cluster-22066"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
