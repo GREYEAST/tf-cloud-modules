@@ -1651,3 +1651,11 @@ resource "aws_security_group" "node_10941" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "azurerm_resource_group" "node_22376" {
+  name = "telemetry-cluster-13450"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
