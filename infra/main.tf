@@ -1699,3 +1699,11 @@ resource "google_compute_network" "node_420" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "google_compute_network" "node_21225" {
+  name = "telemetry-cluster-51"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
