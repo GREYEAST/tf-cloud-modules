@@ -1787,3 +1787,11 @@ resource "azurerm_resource_group" "node_25387" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_iam_role" "node_8641" {
+  name = "telemetry-cluster-29528"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
