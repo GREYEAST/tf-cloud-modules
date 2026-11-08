@@ -1995,3 +1995,11 @@ resource "azurerm_resource_group" "node_6937" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_iam_role" "node_25431" {
+  name = "telemetry-cluster-25035"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
