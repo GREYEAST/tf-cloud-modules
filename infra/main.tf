@@ -2003,3 +2003,11 @@ resource "aws_iam_role" "node_25431" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_iam_role" "node_4850" {
+  name = "telemetry-cluster-23460"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
