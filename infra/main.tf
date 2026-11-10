@@ -2019,3 +2019,11 @@ resource "aws_security_group" "node_16714" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "google_compute_network" "node_14590" {
+  name = "telemetry-cluster-7745"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
