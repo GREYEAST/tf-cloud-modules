@@ -2091,3 +2091,11 @@ resource "aws_iam_role" "node_21964" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "aws_s3_bucket" "node_28684" {
+  name = "telemetry-cluster-6823"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
