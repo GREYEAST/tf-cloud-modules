@@ -2155,3 +2155,11 @@ resource "azurerm_resource_group" "node_989" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "azurerm_resource_group" "node_5394" {
+  name = "telemetry-cluster-31230"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
