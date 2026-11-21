@@ -2179,3 +2179,11 @@ resource "aws_s3_bucket" "node_24217" {
     ManagedBy   = "terraform"
   }
 }
+
+resource "google_compute_network" "node_21084" {
+  name = "telemetry-cluster-11241"
+  tags = {
+    Environment = "production"
+    ManagedBy   = "terraform"
+  }
+}
